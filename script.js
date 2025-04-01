@@ -1,14 +1,3 @@
-/*const getCharacters = async function () {
-  const url = "https://anapioficeandfire.com/api/characters/";
-  try {
-    const response = await fetch(url);
-    const characters = await response.json();
-    console.log(characters);
-  } catch (error) {
-    console.log(`there was an error: ${error}`);
-  }
-};*/
-
 const getOneCharacter = async function () {
   const id = document.getElementById("characterId").value;
   const url = `https://swapi.dev/api/people/${id}`;
@@ -28,10 +17,3 @@ const getOneCharacter = async function () {
     console.log(`there was an error: ${error}`);
   }
 };
-
-/*fetch("https://swapi.dev/api/people").then((response) => {
-  const people = response.json().then((people) => {
-    console.log(people);
-  });
-});
-*/
