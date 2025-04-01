@@ -37,8 +37,8 @@ Run the development server:
 npm run dev
 
 📸 Screenshots
-![StarWarsGIF Demo](./screenshots/demo1.png)
-![StarWarsGIF Demo](./screenshots/demo2.png)
+![starwarsgif Demo](./screenshots/demo1.png)
+![starwarsgif Demo](./screenshots/demo2.png)
 
 
 🌟 Contributing
